@@ -1,0 +1,50 @@
+2025-05-30 11:38:21,189 - INFO - Succesfully read the YAML file
+2025-05-30 11:38:21,190 - INFO - DataIngestion class initialized
+2025-05-30 11:38:21,190 - INFO - starting data ingestion process
+2025-05-30 11:38:33,176 - ERROR - Error downloading files from GCP bucket: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-05-30 11:38:33,177 - ERROR - Error in data ingestion process: CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2025-05-30 11:38:33,177 - INFO - Data ingestion process finished
+2025-05-30 11:40:55,030 - INFO - Succesfully read the YAML file
+2025-05-30 11:40:55,031 - INFO - DataIngestion class initialized
+2025-05-30 11:40:55,031 - INFO - starting data ingestion process
+2025-05-30 11:41:07,244 - ERROR - Error downloading files from GCP bucket: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-05-30 11:41:07,244 - ERROR - Error in data ingestion process: CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2025-05-30 11:41:07,245 - INFO - Data ingestion process finished
+2025-05-30 11:42:50,365 - INFO - Succesfully read the YAML file
+2025-05-30 11:42:50,365 - INFO - DataIngestion class initialized
+2025-05-30 11:42:50,366 - INFO - starting data ingestion process
+2025-05-30 11:43:02,364 - ERROR - Error downloading files from GCP bucket: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-05-30 11:43:02,364 - ERROR - Error in data ingestion process: CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2025-05-30 11:43:02,364 - INFO - Data ingestion process finished
+2025-05-30 11:51:55,822 - INFO - Succesfully read the YAML file
+2025-05-30 11:51:55,824 - INFO - DataIngestion class initialized
+2025-05-30 11:51:55,824 - INFO - starting data ingestion process
+2025-05-30 11:52:07,913 - ERROR - Error downloading files from GCP bucket: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-05-30 11:52:07,913 - ERROR - Error in data ingestion process: CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2025-05-30 11:52:07,913 - INFO - Data ingestion process finished
+2025-05-30 11:54:35,836 - INFO - Succesfully read the YAML file
+2025-05-30 11:54:35,836 - INFO - DataIngestion class initialized
+2025-05-30 11:54:35,836 - INFO - starting data ingestion process
+2025-05-30 11:54:47,800 - ERROR - Error downloading files from GCP bucket: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-05-30 11:54:47,800 - ERROR - Error in data ingestion process: CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2025-05-30 11:54:47,800 - INFO - Data ingestion process finished
+2025-05-30 11:58:43,902 - INFO - Succesfully read the YAML file
+2025-05-30 11:58:43,902 - INFO - DataIngestion class initialized
+2025-05-30 11:58:43,902 - INFO - starting data ingestion process
+2025-05-30 11:58:56,168 - ERROR - Error downloading files from GCP bucket: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-05-30 11:58:56,172 - ERROR - Error in data ingestion process: Error in C:\Users\yashw\Anime_Recommendation_project2\src\data_ingestion.py , line 22 : Error downloading files from GCP bucket: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-05-30 11:58:56,172 - INFO - Data ingestion process finished
+2025-05-30 12:02:23,902 - INFO - Succesfully read the YAML file
+2025-05-30 12:02:23,903 - INFO - DataIngestion class initialized
+2025-05-30 12:02:23,903 - INFO - starting data ingestion process
+2025-05-30 12:02:24,724 - ERROR - Error downloading files from GCP bucket: 404 GET https://storage.googleapis.com/download/storage/v1/b/anime_bucket12/o/-?alt=media: No such object: anime_bucket12/-: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2025-05-30 12:02:24,724 - ERROR - Error in data ingestion process: Error in C:\Users\yashw\Anime_Recommendation_project2\src\data_ingestion.py , line 37 : Error downloading files from GCP bucket: 404 GET https://storage.googleapis.com/download/storage/v1/b/anime_bucket12/o/-?alt=media: No such object: anime_bucket12/-: ('Request failed with status code', 404, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.PARTIAL_CONTENT: 206>)
+2025-05-30 12:02:24,724 - INFO - Data ingestion process finished
+2025-05-30 12:05:02,516 - INFO - Succesfully read the YAML file
+2025-05-30 12:05:02,516 - INFO - DataIngestion class initialized
+2025-05-30 12:05:02,517 - INFO - starting data ingestion process
+2025-05-30 12:05:04,736 - INFO - Downloaded anime.csv from GCP bucket anime_bucket12 to artifacts/raw\anime.csv
+2025-05-30 12:05:07,255 - INFO - Downloaded anime_with_synopsis.csv from GCP bucket anime_bucket12 to artifacts/raw\anime_with_synopsis.csv
+2025-05-30 12:13:38,204 - INFO - Downloaded animelist.csv from GCP bucket anime_bucket12 to artifacts/raw\animelist.csv
+2025-05-30 12:13:38,234 - INFO - Data ingestion process completed successfully
+2025-05-30 12:13:38,234 - INFO - Data ingestion process finished

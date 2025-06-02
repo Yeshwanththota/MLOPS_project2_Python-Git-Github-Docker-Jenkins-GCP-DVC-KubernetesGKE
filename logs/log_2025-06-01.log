@@ -1,0 +1,49 @@
+2025-06-01 08:56:04,779 - INFO - DataProcessing class initialized
+2025-06-01 08:56:04,779 - INFO - Starting data processing
+2025-06-01 08:56:05,931 - INFO - Data loaded successfully from artifacts/raw/animelist.csv
+2025-06-01 08:56:06,217 - INFO - Filtered users with less than 400 ratings
+2025-06-01 08:56:07,234 - INFO - Scaled ratings to a range of 0 to 1
+2025-06-01 08:56:07,409 - INFO - Encoded user and anime IDs
+2025-06-01 08:56:08,193 - INFO - Split data into training and testing sets
+2025-06-01 08:56:08,196 - INFO - Saved user2user_encoded to artifacts/processed\user2user_encoded.pkl
+2025-06-01 08:56:08,220 - INFO - Saved user2user_decoded to artifacts/processed\user2user_decoded.pkl
+2025-06-01 08:56:08,259 - INFO - Saved anime2anime_encoded to artifacts/processed\anime2anime_encoded.pkl
+2025-06-01 08:56:08,320 - INFO - Saved anime2anime_decoded to artifacts/processed\anime2anime_decoded.pkl
+2025-06-01 08:56:13,265 - INFO - Saved training and testing data arrays
+2025-06-01 08:56:14,955 - ERROR - Error processing anime data: 'MAL_ID'
+2025-06-01 08:56:14,955 - ERROR - Error in data processing: Error in C:\Users\yashw\Anime_Recommendation_project2\src\data_processing.py , line 136 : Error processing anime data: 'MAL_ID'
+2025-06-01 08:56:14,955 - INFO - Data processing finished
+2025-06-01 09:05:12,134 - INFO - DataProcessing class initialized
+2025-06-01 09:05:12,134 - INFO - Starting data processing
+2025-06-01 09:05:13,203 - INFO - Data loaded successfully from artifacts/raw/animelist.csv
+2025-06-01 09:05:13,439 - INFO - Filtered users with less than 400 ratings
+2025-06-01 09:05:14,423 - INFO - Scaled ratings to a range of 0 to 1
+2025-06-01 09:05:14,598 - INFO - Encoded user and anime IDs
+2025-06-01 09:05:15,422 - INFO - Split data into training and testing sets
+2025-06-01 09:05:15,438 - INFO - Saved user2user_encoded to artifacts/processed\user2user_encoded.pkl
+2025-06-01 09:05:15,452 - INFO - Saved user2user_decoded to artifacts/processed\user2user_decoded.pkl
+2025-06-01 09:05:15,512 - INFO - Saved anime2anime_encoded to artifacts/processed\anime2anime_encoded.pkl
+2025-06-01 09:05:15,553 - INFO - Saved anime2anime_decoded to artifacts/processed\anime2anime_decoded.pkl
+2025-06-01 09:05:20,480 - INFO - Saved training and testing data arrays
+2025-06-01 09:05:26,053 - INFO - Processed anime data and df, synopis_df saved to CSV files
+2025-06-01 09:05:26,057 - INFO - Data processing completed successfully
+2025-06-01 09:05:26,057 - INFO - Data processing finished
+2025-06-01 15:21:30,880 - INFO - ModelTraining initialized with data path: artifacts/processed
+2025-06-01 15:21:58,509 - INFO - ModelTraining initialized with data path: artifacts/processed
+2025-06-01 15:21:58,683 - INFO - Data loaded successfully from artifacts/processed
+2025-06-01 15:21:58,712 - INFO - Succesfully read the YAML file
+2025-06-01 15:21:58,712 - INFO - loaded config file successfully
+2025-06-01 15:21:58,917 - ERROR - Error creating RecommenderNet model: 'loss_function'
+2025-06-01 15:21:58,917 - ERROR - Error in train_model: Error in c:\users\yashw\anime_recommendation_project2\src\base_model.py , line 41 : Error creating RecommenderNet model: 'loss_function'
+2025-06-01 15:31:31,147 - INFO - ModelTraining initialized with data path: artifacts/processed
+2025-06-01 15:31:31,331 - INFO - Data loaded successfully from artifacts/processed
+2025-06-01 15:31:31,366 - INFO - Succesfully read the YAML file
+2025-06-01 15:31:31,366 - INFO - loaded config file successfully
+2025-06-01 15:31:31,553 - INFO - RecommenderNet model created successfully
+2025-06-01 15:31:31,553 - INFO - Model created successfully
+2025-06-01 15:33:38,540 - INFO - Model trained successfully
+2025-06-01 15:33:38,540 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-01 15:33:38,600 - INFO - Model saved successfully at artifacts/model\model.h5
+2025-06-01 15:33:38,605 - INFO - Weights extracted successfully from layer: user_embedding
+2025-06-01 15:33:38,615 - INFO - Weights extracted successfully from layer: anime_embedding
+2025-06-01 15:33:38,623 - INFO - Weights saved successfully at artifacts/weights\user_weights.pkl and artifacts/weights\anime_weights.pkl

@@ -1,0 +1,67 @@
+2025-06-02 06:34:21,549 - INFO - Comet ML experiment initialized
+2025-06-02 06:34:21,549 - INFO - ModelTraining initialized with data path: artifacts/processed
+2025-06-02 06:34:21,721 - INFO - Data loaded successfully from artifacts/processed
+2025-06-02 06:34:21,900 - INFO - Succesfully read the YAML file
+2025-06-02 06:34:21,900 - INFO - loaded config file successfully
+2025-06-02 06:34:22,117 - INFO - RecommenderNet model created successfully
+2025-06-02 06:34:22,117 - INFO - Model created successfully
+2025-06-02 06:36:34,474 - INFO - Model trained successfully
+2025-06-02 06:36:34,491 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-02 06:36:34,616 - INFO - Model saved successfully at artifacts/model\model.h5
+2025-06-02 06:36:34,622 - INFO - Weights extracted successfully from layer: user_embedding
+2025-06-02 06:36:34,642 - INFO - Weights extracted successfully from layer: anime_embedding
+2025-06-02 06:36:34,660 - INFO - Weights saved successfully at artifacts/weights\user_weights.pkl and artifacts/weights\anime_weights.pkl
+2025-06-02 06:36:57,163 - INFO - Comet ML experiment initialized
+2025-06-02 06:36:57,163 - INFO - ModelTraining initialized with data path: artifacts/processed
+2025-06-02 06:36:57,321 - INFO - Data loaded successfully from artifacts/processed
+2025-06-02 06:36:57,351 - INFO - Succesfully read the YAML file
+2025-06-02 06:36:57,351 - INFO - loaded config file successfully
+2025-06-02 06:36:57,512 - INFO - RecommenderNet model created successfully
+2025-06-02 06:36:57,512 - INFO - Model created successfully
+2025-06-02 06:39:09,087 - INFO - Model trained successfully
+2025-06-02 06:39:09,107 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-02 06:39:09,239 - INFO - Model saved successfully at artifacts/model\model.h5
+2025-06-02 06:39:09,245 - INFO - Weights extracted successfully from layer: user_embedding
+2025-06-02 06:39:09,271 - INFO - Weights extracted successfully from layer: anime_embedding
+2025-06-02 06:39:09,293 - INFO - Weights saved successfully at artifacts/weights\user_weights.pkl and artifacts/weights\anime_weights.pkl
+2025-06-02 06:41:37,931 - INFO - Comet ML experiment initialized
+2025-06-02 06:41:37,931 - INFO - ModelTraining initialized with data path: artifacts/processed
+2025-06-02 06:41:38,161 - INFO - Data loaded successfully from artifacts/processed
+2025-06-02 06:41:38,200 - INFO - Succesfully read the YAML file
+2025-06-02 06:41:38,200 - INFO - loaded config file successfully
+2025-06-02 06:41:38,864 - INFO - RecommenderNet model created successfully
+2025-06-02 06:41:38,864 - INFO - Model created successfully
+2025-06-02 06:43:36,379 - INFO - Model trained successfully
+2025-06-02 06:43:36,382 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-02 06:43:36,482 - INFO - Model saved successfully at artifacts/model\model.h5
+2025-06-02 06:43:36,490 - INFO - Weights extracted successfully from layer: user_embedding
+2025-06-02 06:43:36,512 - INFO - Weights extracted successfully from layer: anime_embedding
+2025-06-02 06:43:36,585 - INFO - Weights saved successfully at artifacts/weights\user_weights.pkl and artifacts/weights\anime_weights.pkl
+2025-06-02 06:56:46,451 - INFO - DataProcessing class initialized
+2025-06-02 06:56:46,452 - INFO - Starting data processing
+2025-06-02 06:56:47,538 - INFO - Data loaded successfully from artifacts/raw/animelist.csv
+2025-06-02 06:56:47,815 - INFO - Filtered users with less than 400 ratings
+2025-06-02 06:56:48,878 - INFO - Scaled ratings to a range of 0 to 1
+2025-06-02 06:56:49,046 - INFO - Encoded user and anime IDs
+2025-06-02 06:56:49,963 - INFO - Split data into training and testing sets
+2025-06-02 06:56:49,978 - INFO - Saved user2user_encoded to artifacts/processed\user2user_encoded.pkl
+2025-06-02 06:56:49,994 - INFO - Saved user2user_decoded to artifacts/processed\user2user_decoded.pkl
+2025-06-02 06:56:50,046 - INFO - Saved anime2anime_encoded to artifacts/processed\anime2anime_encoded.pkl
+2025-06-02 06:56:50,114 - INFO - Saved anime2anime_decoded to artifacts/processed\anime2anime_decoded.pkl
+2025-06-02 06:56:55,287 - INFO - Saved training and testing data arrays
+2025-06-02 06:57:01,649 - INFO - Processed anime data and df, synopis_df saved to CSV files
+2025-06-02 06:57:01,654 - INFO - Data processing completed successfully
+2025-06-02 06:57:01,654 - INFO - Data processing finished
+2025-06-02 06:57:07,432 - INFO - Comet ML experiment initialized
+2025-06-02 06:57:07,432 - INFO - ModelTraining initialized with data path: artifacts/processed
+2025-06-02 06:57:07,554 - INFO - Data loaded successfully from artifacts/processed
+2025-06-02 06:57:07,588 - INFO - Succesfully read the YAML file
+2025-06-02 06:57:07,588 - INFO - loaded config file successfully
+2025-06-02 06:57:08,196 - INFO - RecommenderNet model created successfully
+2025-06-02 06:57:08,196 - INFO - Model created successfully
+2025-06-02 06:59:22,893 - INFO - Model trained successfully
+2025-06-02 06:59:22,897 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-02 06:59:22,976 - INFO - Model saved successfully at artifacts/model\model.h5
+2025-06-02 06:59:22,984 - INFO - Weights extracted successfully from layer: user_embedding
+2025-06-02 06:59:23,001 - INFO - Weights extracted successfully from layer: anime_embedding
+2025-06-02 06:59:23,085 - INFO - Weights saved successfully at artifacts/weights\user_weights.pkl and artifacts/weights\anime_weights.pkl
