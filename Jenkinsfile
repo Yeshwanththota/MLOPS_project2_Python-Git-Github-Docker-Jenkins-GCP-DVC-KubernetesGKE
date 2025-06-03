@@ -55,10 +55,10 @@ pipeline{
                         sh '''
                         export PATH=$PATH:${GCLOUD_PATH}
                         gcloud auth activate-service-account --key-file=${GOOGLE_APPLICATION_CREDENTIALS}
-                        gcloud config set project ${GCP_PROJECT}
+                        gcloud config set project $GCP_PROJECT
                         gcloud auth configure-docker --quiet
-                        docker build -t gcr.io/${GCP_PROJECT}/ml-project:latest .
-                        docker push gcr.io/${GCP_PROJECT}/ml-project:latest
+                        docker build -t gcr.io/$GCP_PROJECT/ml-project:latest .
+                        docker push gcr.io/$GCP_PROJECT/ml-project:latest
                         '''
                     }
                 }
@@ -74,7 +74,7 @@ pipeline{
                         sh '''
                         export PATH=$PATH:${GCLOUD_PATH}:${KUBECTL_AUTH_PLUGIN}
                         gcloud auth activate-service-account --key-file=${GOOGLE_APPLICATION_CREDENTIALS}
-                        gcloud config set project ${GCP_PROJECT}
+                        gcloud config set project $GCP_PROJECT
                         gcloud container clusters get-credentials autopilot-cluster-1 --region us-central1
                         kubectl apply -f deployment.yaml
                         '''
