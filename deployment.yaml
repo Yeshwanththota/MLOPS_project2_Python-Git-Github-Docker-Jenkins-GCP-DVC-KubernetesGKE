@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: ml-app-container
-        image: gcr.io/${GCP_PROJECT}/mlops_project2:latest 
+        image: gcr.io/lofty-voyage-461011-f1/ml-project:latest 
         ports:
         - containerPort: 5000  # Replace with the port your app listens on
 ---
