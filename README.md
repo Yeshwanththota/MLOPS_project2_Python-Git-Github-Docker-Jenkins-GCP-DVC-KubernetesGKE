@@ -1,1 +1,1 @@
-Tech Stack (Python, Docker, Jenkins, GCP, DVC, Kubernetes (GKE))
+Tech Stack (Python, Git, Github, Docker, Jenkins, GCP, DVC, Kubernetes (GKE))
