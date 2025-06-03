@@ -11,7 +11,7 @@ pipeline{
             steps{
                 script{
                     echo 'cloning from github...'
-                    checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'mlops_project', url: 'https://github.com/Yeshwanththota/mlops_project2.git']])
+                    checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'mlops_project2', url: 'https://github.com/Yeshwanththota/mlops_project2.git']])
                 }
             }
 
