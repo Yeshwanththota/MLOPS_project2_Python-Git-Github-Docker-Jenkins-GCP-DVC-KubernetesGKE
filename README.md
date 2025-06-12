@@ -9,6 +9,8 @@
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
 ** Go to MLops2_project_results for outputs**
+
+
 Step  1
 1.	Come to GCP console
 2.	Create a bucket (untick enforce).
