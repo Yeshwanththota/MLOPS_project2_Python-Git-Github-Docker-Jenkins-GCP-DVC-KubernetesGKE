@@ -22,6 +22,7 @@ Project setup
 2.	Creating required folders and files. (artifacts for outputs, config for path configurations and yaml files, pipeline folder, src where main project code lies, (static , templates for html,css,js and flask automatically finds them in project directory), utils for common functions, requirements and setup file. To make a folder a package we need to create a __init__.py file inside it so that the methods/files can be accessed from other places.
 3.	Next, we code for setup, custom exceptions, logger, requirements files (basic things at first like numpy, pandas) .
 4.	Then we run setup.py in venv in cmd using pip install -e . This will install all the required dependencies for the project make the project directory ready for next steps. This step automatically created a folder with project name given in the setup.py
+   
 Step 3
 Data Ingestion
 1.	Create data_ingestion.py in src. Then install google cloud cli from web and check in the venv with gcloud –version to know whether it is installed or not.
@@ -40,6 +41,7 @@ Data Ingestion
 14.	Note: if using pwsh need use different cmd $env:GOOGLE_APPLICATION_CREDENTIALS="C:\path\to\your\service-account-file.json"
 But for cmd prompt it is like
 Set GOOGLE_APPLICATION_CREDENTIALS=C:\path\to\your\service-account-file.json
+
 Step 4
 1.	Jupiter notebook testing
 2.	Data ingestion code
@@ -49,11 +51,17 @@ Step 4
 6.	Now go to web and search for comet ml. register an account (better to go with github account). Login and create a project. Then go to profile and copy the API key. Now come to model training file ,import it on top of all and then in code set the experiment variable with apikey, workspace name and project name. now write the required code for comet-ml in the same file for experiment tracking.
 7.	Run the model training file, you will see the experiment logged in comet-ml UI under workspace-experiments where you can track all the info about the model.
 8.	Now creating a training_pipeline file and code it and run.
+
 Step 5
+
 Data versioning using DVC and code using github
+
 What we did initially is data in bucket to PC.
+
 Now we create another bucket (as before, give permissions to service account) to push all the artifacts to it. Now come to vscode and in requirements add dvc and install using pip install -e .
+
 Now initialize the git and also dvc. You will see a dvc directory created automatically.
+
 Next create a .gitignore and put the directory that you don’t want to push. Usually env, artifacts, checkpoints, data, and other mlruns etc. typically large files because git wont support and not a good practise.
 
 1.	Now create a github repo and push the code from vscode. 
@@ -84,6 +92,7 @@ USER APP building using flask and chatgpt
 8.	Now we will add css to it. Create a style.css under static and code it. Save it.
 9.	Run again the application.
 10.	Done
+
 STEP 7
 CI/CD using Docker, Jenkins and Kubernetes. (Follow CI/CD Material)
 1.	Open Docker application and let it run in background.
