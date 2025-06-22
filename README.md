@@ -8,7 +8,9 @@
 ![DVC](https://img.shields.io/badge/DVC-945DD6?style=for-the-badge&logo=dvc&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
-** Go to MLops2_project_results for outputs**
+**Summary:** A full MLOps workflow on Google Cloud Platform, starting with data storage in GCP buckets and progressing through environment setup, data ingestion, and processing. The project integrates experiment tracking with Comet ML, data versioning using DVC connected to cloud storage, and code versioning with Git and GitHub. A user-facing Flask web app is developed for predictions, and the entire pipeline is automated and deployed using Docker, Jenkins, and Kubernetes, resulting in a scalable, production-ready machine learning application on GKE.
+
+**Go to MLops2_project_results for outputs**
 
 
 Step  1
